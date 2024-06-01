@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .portfolio-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .project-card {
+            background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .project-content {
+            padding: 20px;
+        }
+        .project-card h3 {
+            margin-top: 10px;
+        }
+        .project-card p {
+            color: #555;
+        }
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+        .project-link {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="project-card" style="background: linear-gradient(135deg, #d9a7c7 0%, #fffcdc 100%);">
+            <img src="path/to/lunatag-screenshot.png" alt="Lunatag Screenshot">
+            <div class="project-content">
+                <h3>Lunatag</h3>
+                <div class="tags">
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">React.js</span>
+                </div>
+                <p>I've created a Shopify App that allows users to add Tags to any image on their Shopify site to upsell products. The app is available on the Shopify App store and works for all...</p>
+                <p><small>2022</small></p>
+                <a href="https://link-to-lunatag-project" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" style="background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);">
+            <img src="path/to/tellmann-screenshot.png" alt="Tellmann Screenshot">
+            <div class="project-content">
+                <h3>Tellmann</h3>
+                <div class="tags">
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">React.js</span>
+                </div>
+                <p>Tellmann Shopify Ecommerce Agency Website. I've built the site to establish a basis to find new Web Development projects and promote Shopify services.</p>
+                <p><small>2020</small></p>
+                <a href="https://link-to-tellmann-project" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+            <img src="path/to/clickupload-screenshot.png" alt="ClickUpload Screenshot">
+            <div class="project-content">
+                <h3>ClickUpload</h3>
+                <div class="tags">
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Vercel</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">React.js</span>
+                </div>
+                <p>ClickUpload enables Shopify store owners to let customers upload files to their orders. The Shopify App supports all file types and sizes. All files are linked to the order and ca...</p>
+                <p><small>2021</small></p>
+                <a href="https://link-to-clickupload-project" class="project-link">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" style="background: linear-gradient(135deg, #96fbc4 0%, #f9f586 100%);">
+            <img src="path/to/kidsliving-screenshot.png" alt="Kids Living Screenshot">
+            <div class="project-content">
+                <h3>Kids Living</h3>
+                <div class="tags">
+                    <span class="tag">Shopify</span>
+                    <span class="tag">TypeScript</span>
+                </div>
+                <p>Large scale Ecommerce site for an African based client with multiple locations and over...</p>
+                <p><small>2017</small></p>
+                <a href="https://link-to-kidsliving-project" class="project-link">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

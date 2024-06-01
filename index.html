@@ -32,6 +32,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/project-card.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -69,7 +70,7 @@
     <div class="container">
 
       <h1><a href="index.html">Nazym Berdaly</a></h1>
-      <h2 style="color:#fff">I'm a <span class="typing" style="color:#12D640"></span></h2>
+      <h2 style="color:#fff">I'm an <span class="typing" style="color:#12D640"></span></h2>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header"> <span>Home</span></a></li>
@@ -124,7 +125,7 @@
             <br>Coding helps me discover of who I am through constant learning of problem solving. Routinely, I code as
             an Android and iOS developer, but I also developed enough of soft skills to try myself in leading the team.
             <br>
-            <br>My portfolio consists of 8 full-time projects, which is 8 apps and 6 years that helped me to grow a lot.
+            <br>My portfolio includes 13 full-time projects, consisting of 12 mobile apps and 1 web app, over the course of 7 years, which have significantly contributed to my professional growth.
             Half of them is in start-up pace, the other half is in mature industries such as finance, sports, beauty and
             health, dance, and e-commerce.
           </p>
@@ -242,9 +243,9 @@
             <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
             <ul style="text-align:left;color:#fff;">
               <!-- <li>Data Structures &amp; Algorithms</li> -->
-              <li>Database Management Systems</li>
-              <li>Algorithms &amp; Optimization for Big Data</li>
+              <li>Distributed Systems</li>
               <li>Machine Learning</li>
+              <li>Algorithms &amp; Optimization for Big Data</li>
               <!-- <li>Computer Vision</li> -->
             </ul>
           </div>
@@ -318,6 +319,19 @@
       </div>
       <div class="row">
         <div class="col-lg-12" data-aos="fade-up">
+          <a href="https://www.lottoshield.com/" target="_blank" style="color:#fff; text-decoration: none;">
+            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+              <h4 style="text-align:left; color:#12d640;">OneFabricTechnologies<br></h4>
+              <h5 style="text-align:left; color:#fff;">January 2024 - present</h5>
+              <p style="text-align:left; color:#fff;"><em>Flutter developer</em></p>
+              <ul style="text-align:left; color:#fff;">
+                <li>Designed and implemented the LottoShield scanner app, enabling cashiers to audit inventory in seconds without manually entering ticket or bin numbers.</li>
+                <li>Enhanced location tracking and resolved memory leaks, resulting in improved user experience and increased customer satisfaction.</li>
+                <li>Refactored code and optimized barcode scanning to improve app responsiveness.</li>
+                <li>Added features to ensure a smoother experience, even with unstable or unavailable internet connections.</li>
+              </ul>
+            </div>
+          </a>
           <a href="https://www.eng.atb.su/" target="_blank" style="color:#fff; text-decoration: none;">
             <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
               <h4 style="text-align:left; color:#12d640;">Asian Pacific Bank<br></h4>
@@ -397,6 +411,18 @@
             </div>
           </a>
 
+          <a href="https://solly.kz/" target="_blank" style="color:#fff; text-decoration: none;">
+            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+              <h4 style="text-align:left; color:#12d640;">Solly<br></h4>
+              <h5 style="text-align:left; color:#fff;">September 2018 - September 2019</h5>
+              <p style="text-align:left; color:#fff;"><em>Back End Developer</em></p>
+              <ul style="text-align:left; color:#fff;">
+                <li>Engineered the OK24kz web applications on ASP .NET CORE</li>
+                <li>Deployed production-ready ASP.NET Core environment on an Ubuntu server.</li>
+              </ul>
+            </div>
+          </a>
+
         </div>
       </div>
     </div>
@@ -418,167 +444,295 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Web-App</li>
-            <li data-filter=".filter-project">Project</li>
+            <li data-filter=".filter-app">Mobile-App</li>
+            <li data-filter=".filter-project">Web-App</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Twitter Analysis</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/twitteranalysis.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/twitteranalysis.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+        <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #a8e589  0%, #d9f767 100%);">
+          <div class="image-container">
+              <img src="assets/img/project/atb_credit.jpg" alt="ATB bank Screenshot">
+          </div>
+          <div class="project-content">
+              <h3>ATB</h3>
+              <div class="tags">
+                  <span class="tag">Flutter</span>
+                  <span class="tag">Dart</span>
+                  <span class="tag">QR scan</span>
               </div>
-            </div>
+              <p>I designed and implemented a credit feature in ATB Bank app that makes payments, loans, and expense management closer, easier, and safer for users.. Took the initiative to overhaul and enhance the credit feature.
+              </p>
+              <div class="project-footer">
+                  <p><small>2023</small></p>
+                  <div class="icons">
+                      <a href="https://play.google.com/store/apps/details?id=su.atb.mobileapp&hl=en_US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                      <a href="https://apps.apple.com/ru/app/%D0%B0%D1%82%D0%B1-%D0%B1%D0%B0%D0%BD%D0%BA/id1604332202" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+                  </div>
+              </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Image recognition as Service</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/iras.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
+        <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #ffe680 0%, #ffbd59 100%);">
+          <div class="image-container">
+              <img src="assets/img/project/dancely.jpg" alt="Dancely Screenshot">
           </div>
+          <div class="project-content">
+              <h3>Dancely</h3>
+              <div class="tags">
+                  <span class="tag">Swift</span>
+                  <span class="tag">Alomofire</span>
+                  <span class="tag">Core Data</span>
+                  <span class="tag">Firebase</span>
+              </div>
+              <p>I developed an iOS app that connects users with dance partners or instructors, creating a seamless and interactive platform for dance enthusiasts. The app allows users to find and schedule sessions with qualified dance instructors or connect with other dancers in their area.</p>
+              <div class="project-footer">
+                  <p><small>2017</small></p>
+                  <div class="icons">
+                      <a href="https://github.com/nazymberdaly/danceApp.git" target="_blank" class="icon-link"><i class="bx bxl-github"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #ffd433  0%, #b833ff 100%);">
+        <div class="image-container">
+            <img src="assets/img/project/avtobys.jpg" alt="Avtobys Screenshot">
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Music Streaming Website</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
+        <div class="project-content">
+            <h3>Avtobys</h3>
+            <div class="tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">QR scan</span>
+                <span class="tag">ble</span>
             </div>
-          </div>
+            <p>Engineered the Avtobys app, comprehensive solution for bus payments. Implemented bus payments through innovative features such as QR code, Bluetooth, debit card, and state number payment options, alongside essential functionalities like real-time bus tracking and seamless balance recharge.
+            </p>
+            <div class="project-footer">
+                <p><small>2019</small></p>
+                <div class="icons">
+                    <a href="https://play.google.com/store/apps/details?id=kz.avtobys.userapp&hl=en_US&gl=US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                    <a href="https://apps.apple.com/kz/app/avtobys/id1481967590" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+                </div>
+            </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Movie Recommender</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/recommender.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+      </div>
+          <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #d9a7c7 0%, #fffcdc 100%);">
+              <div class="image-container">
+                  <img src="assets/img/project/jusan_main.jpg" alt="Jusan App Screenshot">
               </div>
-            </div>
+              <div class="project-content">
+                  <h3>Jusan</h3>
+                  <div class="tags">
+                      <span class="tag">Swift</span>
+                      <span class="tag">User Authentication</span>
+                      <span class="tag">API Integration</span>
+                      <span class="tag">Push Notifications</span>
+                  </div>
+                  <p>I contributed to the Jusan App, enhancing its integration of mobile banking, shopping, investments, insurance, and mobile communications into one platform.</p>
+                  <div class="project-footer">
+                      <p><small>2021</small></p>
+                      <div class="icons">
+                          <a href="https://apps.apple.com/md/app/jusan/id1441936010"  target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+                      </div>
+                  </div>
+              </div>
           </div>
+
+        <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);">
+          <div class="image-container">
+              <img src="assets/img/project/pylons.png" alt="Pylons Screenshot">
+          </div>
+          <div class="project-content">
+              <h3>Pylons</h3>
+              <div class="tags">
+                  <span class="tag">Dart</span>
+                  <span class="tag">Flutter</span>
+                  <span class="tag">Face ID</span>
+                  <span class="tag">In-App Purchases</span>
+              </div>
+              <p>I worked with Pylons to successfully develop their app, focusing on providing a secure, community-driven experience for managing digital property. The app enables users to store NFTs directly on their devices with top-notch security, ensuring private keys never leave the device and maintaining complete anonymity.</p>
+              <div class="project-footer">
+                  <p><small>2021</small></p>
+                  <div class="icons">
+                    <a href="https://play.google.com/store/apps/details?id=tech.pylons.wallet&hl=en_US&gl=US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                    <a href="https://apps.apple.com/us/app/pylons/id1598732789" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+        <div class="image-container">
+            <img src="assets/img/project/easel.jpg" alt="Pylons Easel Screenshot">
         </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>To-Do App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
+        <div class="project-content">
+            <h3>Pylons Easel</h3>
+            <div class="tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">IPFS Integration</span>
             </div>
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center>
-            <h4>Resume Section Classifier</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Resume Section Classifier</h4>
-              <div class="portfolio-links">
-                <a href="projects/resume.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
+            <p>I worked with Easel to develop a seamless solution for uploading digital content, including images, videos, audio, and 3D objects, directly from your device to the blockchain.</p>
+            <div class="project-footer">
+                <p><small>2022</small></p>
+                <div class="icons">
+                  <a href="https://play.google.com/store/apps/details?id=tech.pylons.easel&hl=en_US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                  <a href="https://apps.apple.com/us/app/pylons-easel/id1599330426" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+                </div>
             </div>
-          </div>
         </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <br>
-          <center><h4>Tech Blog</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
+      </div>
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #fbc2eb 0%, #f9f586 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/jusan_junior.jpg" alt="Jusan Junior Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>Jusan Junior</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Push Notifications</span>
+              <span class="tag">Face ID</span>
           </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center>
-            <h4>Video Description Generator</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/vdg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <p>I developed from scratch the Jusan Junior app for financial literacy among children. Through engaging games, users become familiar with financial literacy concepts and their practical applications in life.</p>
+          <div class="project-footer">
+              <p><small>2021</small></p>
+              <div class="icons">
+                  <a href="https://play.google.com/store/apps/details?id=kz.jysan.junior.app" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                  <a href="https://apps.apple.com/kz/app/jusan-junior/id1628559106" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
               </div>
-            </div>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>ML-DL Web-App</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
+      </div>
+    </div>
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #96fbc4 0%, #f9f586 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/qfit.jpg" alt="Qfit Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>Qfit</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">User Authentication</span>
+          </div>
+          <p>Pioneered the creation of the QFit fitness app where users can pay per-minute charge in fitness clubs and studios.</p>
+          <div class="project-footer">
+              <p><small>2022</small></p>
+              <div class="icons">
+                  <a href="https://www.instagram.com/qfit.kz/?hl=en" target="_blank" class="icon-link"><i class="bx bx-link-alt"></i></a>
               </div>
-            </div>
           </div>
-        </div>
-
-
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> -->
-          <center>
-            <h4>Image Generator</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
+      </div>
+    </div>
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #3f33ff  0%, #f6ff33 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/rassrochka.jpg" alt="Qfit Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>ATB rassrochka</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">QR scan</span>
+          </div>
+          <p>I developed an installment payment service for ATB Bank, allowing customers to make purchases with zero initial payment and interest-free installments over four months. This service, accessible via QR payments, enabled clients to spread costs evenly, providing financial flexibility and ease of payment.</p>
+          <div class="project-footer">
+              <p><small>2022</small></p>
+              <div class="icons">
+                  <a href="https://www.atb.su/rassrochka/" target="_blank" class="icon-link"><i class="bx bx-link-alt"></i></a>
               </div>
-            </div>
           </div>
-        </div>
+      </div>
+    </div>
+    
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #c0f5ee  0%, #89e5d9 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/cfps.jpg" alt="CFPS Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>CFPS</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Crypto</span>
+          </div>
+          <p>I created CFPS (Crypto Flat Payment System), an application designed for neobanks to integrate cryptocurrency buying and selling functions. The CFPS team aims to simplify everyday finances, enabling users to quickly access and control their budgets while enhancing their financial literacy.</p>
+          <div class="project-footer">
+              <p><small>2020</small></p>
+              <div class="icons">
+                  <a href="https://boostylabs.com/cases/cfps" target="_blank" class="icon-link"><i class="bx bx-link-alt"></i></a>
+              </div>
+          </div>
+      </div>
+    </div>
+  
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #f7c067  0%, #e78135 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/lottoshield.jpg" alt="Lottoshield app Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>LottoShield</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Barcode scan</span>
+          </div>
+          <p>I developed LottoShield, a lottery inventory management system for retailers that streamlines the manual process of lottery reconciliation and protects against theft. The LottoShield scanner enables cashiers to audit inventory in seconds without manually entering ticket or bin numbers. 
+          </p>
+          <div class="project-footer">
+              <p><small>2024</small></p>
+              <div class="icons">
+                  <a href="https://play.google.com/store/apps/details?id=com.lottoshield.www&hl=en&gl=US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                  <a href="https://apps.apple.com/us/app/lottoshield/id1598282279" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-app" style="background: linear-gradient(135deg, #aa90f7  0%, #e78135 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/citadel.jpg" alt="Lottoshield app Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>Citadel.one</h3>
+          <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Crypto</span>
+          </div>
+          <p>I worked with Citadel.one to successfully create an all-in-one cryptocurrency management platform. My contributions included integrating features for staking, sending, portfolio tracking, exchanging, and purchasing cryptocurrency.
+          </p>
+          <div class="project-footer">
+              <p><small>2022</small></p>
+              <div class="icons">
+                  <a href="https://play.google.com/store/apps/details?id=one.citadel.mobile&hl=en_US&gl=US" target="_blank" class="icon-link"><i class="bx bxl-android"></i></a>
+                  <a href="https://apps.apple.com/us/app/citadel-one/id1546701475" target="_blank" class="icon-link"><i class="bx bxl-apple"></i></a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="project-card col-lg-4 col-md-6 portfolio-item filter-project" style="background: linear-gradient(135deg, #67f296  0%, #f6ff33 100%);">
+      <div class="image-container">
+          <img src="assets/img/project/ok24kz.jpeg" alt="OK24 kz Screenshot">
+      </div>
+      <div class="project-content">
+          <h3>OK24.kz</h3>
+          <div class="tags">
+              <span class="tag">C#</span>
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">Nginx</span>
+          </div>
+          <p>I developed OK24.kz from scratch, a platform designed for finding jobs or internships, networking, and skill development. My work included create functional web applications using ASP .NET CORE, managing data interchange between the server and users, and deploying a production-ready ASP.NET Core environment on an Ubuntu server.</p>
+          <div class="project-footer">
+              <p><small>2018</small></p>
+              <div class="icons">
+                  <a href="https://www.atb.su/rassrochka/" target="_blank" class="icon-link"><i class="bx bx-link-alt"></i></a>
+              </div>
+          </div>
+      </div>
+    </div>
 
       </div>
     </div>
@@ -746,7 +900,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing', {
-      strings: ["iOS and Flutter Developer", "AI Enthusiast", "lifelong learner"],
+      strings: ["iOS and Flutter Developer", "AI Enthusiast", "avid learner"],
       loop: true,
       typeSpeed: 65,
       backSpeed: 65
