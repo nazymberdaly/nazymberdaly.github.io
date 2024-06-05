@@ -1,5 +1,5 @@
 # Personal Portfolio 🔥
-> https://nazym.github.io/
+> https://nazymberdaly.github.io/
 
 :star: Star me on GitHub — it helps!
 
